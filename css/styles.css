@@ -5213,7 +5213,7 @@ h2.resp-tab-active span.resp-arrow {
 .clients-style02:before {
     content: "";
     position: absolute;
-    width: 84%;
+    width: 100%;
     height: 100%;
     background-color: #fff;
     top: 0;
@@ -5229,7 +5229,7 @@ h2.resp-tab-active span.resp-arrow {
 
 @media screen and (max-width: 1599px) {
     .clients-style02:before {
-        width: 94%
+        width: 100%
     }
 }
 
