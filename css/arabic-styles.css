@@ -1,0 +1,19 @@
+html[dir="rtl"] .ms-auto{
+    margin-right: auto;
+}
+
+html[dir="rtl"] .me-4{
+    margin-left: 1.5rem !important;
+}
+
+html[dir="rtl"].list-style2 li{
+    padding-right: 30px;
+}
+
+html[dir="rtl"] .list-style2 li:after{
+    right: 0;
+}
+
+html[dir="rtl"] .card-style3 .shape-2{
+    right: 40px;
+}
