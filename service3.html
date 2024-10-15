@@ -66,23 +66,26 @@
                                     <div class="navbar-toggler bg-primary"></div>
 
                                     <!-- menu area -->
-                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                    <ul class="navbar-nav ms-auto align-items-center" id="nav" style="display: none;">
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a data-key="nav_home" href="index.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a data-key="nav_about_us" href="about.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="#service">Service</a>
+                                            <a data-key="nav_service" href="index.html#service"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a data-key="nav_contact" href="contact.html"></a>
                                         </li>
-                                       
+                                        <li class="language-switcher">
+                                            <button class="btn btn-primary" id="english-btn">English</button>
+                                            <button class="btn btn-outline-primary border-0 font-weight-900 " id="arabic-btn">Arabic</button>
+                                        </li>
                                     </ul>
                                     <!-- end menu area -->
 
@@ -94,10 +97,7 @@
                                         </ul>
                                     </div> -->
                                     <!-- end attribute navigation -->
-                                    <div class="language-switcher">
-                                        <button id="english-btn">English</button>
-                                        <button id="arabic-btn">Arabic</button>
-                                    </div>
+                                    
                                 </nav>
                             </div>
                         </div>
@@ -113,12 +113,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Our Services</h1>
+                        <h1 data-key="nav_service">Our Services</h1>
                     </div>
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="#!">Our Services</a></li>
+                            <li><a data-key="nav_home" href="index-2.html">Home</a></li>
+                            <li><a data-key="nav_service" href="#!">Our Services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,32 +145,29 @@
                     <div class="col-lg-6 mt-1-9">
                         <div>
                             <div class="section-title mb-1-6 mb-sm-1-9">
-                                <span>Services</span>
-                                <h2 class="mb-0">Maintenance & Finishing Works</h2>
+                                <span data-key="nav_service">Services</span>
+                                <h2 data-key="Maintenance" class="mb-0">Maintenance & Finishing Works</h2>
                             </div>
-                            <p class="w-xxl-95">We specialize in delivering comprehensive interior finishing and maintenance services for a variety of spaces, including homes, villas, shops, and corporate offices. Our offerings range from complete overhauls to partial upgrades, tailored to meet the specific needs of each client. We begin with an in-depth consultation to understand your vision, followed by the creation of customized 3D design models that reflect your style and preferences, ensuring that you can visualize the final outcome before work begins.</p>
+                            <p data-key="Maintenance_paragraph" class="w-xxl-95">We specialize in delivering comprehensive interior finishing and maintenance services for a variety of spaces, including homes, villas, shops, and corporate offices. Our offerings range from complete overhauls to partial upgrades, tailored to meet the specific needs of each client. We begin with an in-depth consultation to understand your vision, followed by the creation of customized 3D design models that reflect your style and preferences, ensuring that you can visualize the final outcome before work begins.</p>
                             <ul class="list-style3    list-unstyled">
-                                <li>Electrical Systems: Complete installation and rewiring of electrical systems, ensuring safety, efficiency, and adherence to the latest standards.</li>
-                                <li>Plumbing: Expert plumbing services covering everything from basic pipe installations to complex systems, ensuring reliable and leak-free performance.</li>
-                                <li>Insulation: Advanced insulation solutions that improve energy efficiency and comfort, including thermal and sound insulation tailored to the needs of your space.</li>
+                                <li data-key="Maintenance_tittle_one">Electrical Systems: Complete installation and rewiring of electrical systems, ensuring safety, efficiency, and adherence to the latest standards.</li>
+                                <li data-key="Maintenance_tittle_two">Plumbing: Expert plumbing services covering everything from basic pipe installations to complex systems, ensuring reliable and leak-free performance.</li>
+                                <li data-key="Maintenance_tittle_three">Insulation: Advanced insulation solutions that improve energy efficiency and comfort, including thermal and sound insulation tailored to the needs of your space.</li>
                             </ul>
-                            <p class="w-xxl-95">
-                                </p>
-                            
                         </div>
                     </div>
                 </div>
                 <div class="card p-1-9 mt-3">
-                    <p>Our finishing services are categorized into three distinct levels: Lux, Super Lux, and High Ultra, each designed to cater to different tastes and budget requirements. We use only the highest-quality, durable materials to ensure longevity and resilience in every project. Our expertise spans all critical aspects of interior work, including:</p>
+                    <p data-key="Maintenance_paragraph2">Our finishing services are categorized into three distinct levels: Lux, Super Lux, and High Ultra, each designed to cater to different tastes and budget requirements. We use only the highest-quality, durable materials to ensure longevity and resilience in every project. Our expertise spans all critical aspects of interior work, including:</p>
                     <ul class="list-style3    list-unstyled">
-                        <li>Carpentry: Custom carpentry services for all types of woodwork, including cabinetry, doors, windows, and furniture, crafted to the highest standards of craftsmanship.</li>
-                        <li>Ceiling Designs: Innovative ceiling designs ranging from classic to contemporary, including suspended ceilings, decorative plasterwork, and integrated lighting solutions.</li>
-                        <li>Flooring: A wide selection of flooring options, including tiles, hardwood, laminate, and vinyl, installed with precision to ensure a flawless finish.</li>
-                        <li>Painting and Wall Treatments: Professional painting services with a variety of finishes and techniques, including decorative wall treatments and textures that add character to your interiors.</li>
+                        <li data-key="Maintenance_tittle_one1">Carpentry: Custom carpentry services for all types of woodwork, including cabinetry, doors, windows, and furniture, crafted to the highest standards of craftsmanship.</li>
+                        <li data-key="Maintenance_tittle_two2">Ceiling Designs: Innovative ceiling designs ranging from classic to contemporary, including suspended ceilings, decorative plasterwork, and integrated lighting solutions.</li>
+                        <li data-key="Maintenance_tittle_three3">Flooring: A wide selection of flooring options, including tiles, hardwood, laminate, and vinyl, installed with precision to ensure a flawless finish.</li>
+                        <li data-key="Maintenance_tittle_four4">Painting and Wall Treatments: Professional painting services with a variety of finishes and techniques, including decorative wall treatments and textures that add character to your interiors.</li>
                     </ul>
                     <div class="d-sm-flex">
                         <div class="pe-sm-2-9 mb-4 mb-sm-0">
-                            <a href="contact.html" class="butn">Learn More</a>
+                            <a href="contact.html" data-key="Maintenance_button_service" class="butn">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -389,19 +386,19 @@
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div class="footer-contact-info ps-sm-5 ps-xl-0">
                             <div class="mb-4">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Need live support?</p>
-                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0">info@egy.solution</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Need_live_support">Need live support?</p>
+                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0" >info@egy.solution</a>
                             </div>
                             <div class="mb-0">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Toll free customer care</p>
-                                <a href="tel:+2023278007" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Toll_free_customer_care">Toll free customer care</p>
+                                <a href="tel:+2023278007" dir="ltr" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div>
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Sign up for the newsletter</h3>
-                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="https://acoworkhtml.websitelayout.net/quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Sign_up_for_the_newsletter">Sign up for the newsletter</h3>
+                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="" method="post" enctype="multipart/form-data" onclick="">
 
                                 <div class="quform-elements">
                                     <div class="row">
@@ -434,14 +431,14 @@
                                     <img src="img/icons/icon-24.png" class="w-35px opacity6" alt="...">
                                 </div>
                                 <div>
-                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300">Protecting your privacy</p>
+                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300" data-key="Protecting_your_privacy">Protecting your privacy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xl-2 offset-xl-1 mt-5">
                         <div class="ps-sm-5 ps-xl-0">
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Social connect</h3>
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Social_connect">Social connect</h3>
                             <ul class="list-unstyled d-flex mb-0">
                                 <li class="me-3">
                                     <a href="https://www.facebook.com/share/JKMrHjwcY7mDdRe9/?mibextid=JRoKGi" class="text-white text-primary-hover display-28"><i class="fab fa-facebook-f"></i></a>

@@ -1,4 +1,10 @@
-﻿@keyframes LoaderCicle {
+﻿@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+/* *{
+    font-family: "Cairo", sans-serif !important;
+} */
+
+@keyframes LoaderCicle {
     0% {
         width: 0;
         height: 0;
@@ -951,9 +957,9 @@ span.sm-dot {
 }
 
 .slider-fade4 .item h1 {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 95px;
-    letter-spacing: -3px;
+    letter-spacing: 0px;
     font-weight: 900;
     text-shadow: 0 0 60px rgba(0, 0, 0, 0.9)
 }
@@ -1038,9 +1044,9 @@ span.sm-dot {
 
 @media screen and (max-width: 1399px) {
     .slider-fade4 .item h1 {
-        font-size: 70px;
+        font-size: 60px;
         line-height: 90px;
-        letter-spacing: -3px;
+        letter-spacing: 0px;
         font-weight: 900;
         text-shadow: 0 0 60px rgba(0, 0, 0, 0.9)
     }
@@ -1048,9 +1054,9 @@ span.sm-dot {
 
 @media screen and (max-width: 1199px) {
     .slider-fade4 .item h1 {
-        font-size: 70px;
+        font-size: 60px;
         line-height: 90px;
-        letter-spacing: -3px
+        letter-spacing: 0px
     }
 }
 
@@ -1064,7 +1070,7 @@ span.sm-dot {
 
 @media screen and (max-width: 767px) {
     .slider-fade4 .item h1 {
-        letter-spacing: -1px;
+        letter-spacing: 0px;
         font-size: 45px;
         line-height: 43px
     }
@@ -1422,6 +1428,11 @@ span.sm-dot {
         width: 80px;
         bottom: 80px;
         right: 80px
+    }
+
+    html[dir="rtl"] .page-title-section .shape-2{
+        right: unset;
+        left: 80px;
     }
 }
 
@@ -5275,7 +5286,7 @@ h2.resp-tab-active span.resp-arrow {
 }
 
 .clients-style04 img {
-    opacity: 0.45;
+    /* opacity: 0.45; */
     transition: all 0.65s cubic-bezier(0.23, 1, 0.32, 1)
 }
 
@@ -6968,4 +6979,57 @@ html[dir="rtl"] .page-title-section ul li{
 html[dir="rtl"] .about-style02 .shape-2{
     right: -304px;
     left: unset;
+}
+html[dir="rtl"] .list-style3 li:before{
+    left: unset;
+    right: 0px;
+    margin-right: 0px;
+    margin-left: 12px;
+}
+html[dir="rtl"] .list-style3 li{
+    padding: 0px;
+    padding-right: 40px;
+}
+
+.service-card {
+    text-align: left;
+}
+
+html[dir="rtl"] .service-card{
+    text-align: right;
+}
+
+@media screen and (max-width: 1199px) {
+    html[dir="rtl"] .page-title-section .shape-2{
+        right: unset;
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html[dir="rtl"] .page-title-section .shape-2 {
+        right: unset;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    html[dir="rtl"] .page-title-section .shape-2 {
+        right: unset;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    html[dir="rtl"] .navbar-toggler {
+        right: unset;
+        left: 0;
+
+        /*  */
+
+    }
+
+    html[dir="rtl"] .language-switcher{
+        padding: 14px 20px;
+    }
 }

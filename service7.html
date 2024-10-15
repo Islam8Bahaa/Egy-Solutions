@@ -66,23 +66,26 @@
                                     <div class="navbar-toggler bg-primary"></div>
 
                                     <!-- menu area -->
-                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                    <ul class="navbar-nav ms-auto align-items-center" id="nav" style="display: none;">
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a data-key="nav_home" href="index.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a data-key="nav_about_us" href="about.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="#service">Service</a>
+                                            <a data-key="nav_service" href="index.html#service"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a data-key="nav_contact" href="contact.html"></a>
                                         </li>
-                                       
+                                        <li class="language-switcher">
+                                            <button class="btn btn-primary" id="english-btn">English</button>
+                                            <button class="btn btn-outline-primary border-0 font-weight-900 " id="arabic-btn">Arabic</button>
+                                        </li>
                                     </ul>
                                     <!-- end menu area -->
 
@@ -94,10 +97,7 @@
                                         </ul>
                                     </div> -->
                                     <!-- end attribute navigation -->
-                                    <div class="language-switcher">
-                                        <button id="english-btn">English</button>
-                                        <button id="arabic-btn">Arabic</button>
-                                    </div>
+                                    
                                 </nav>
                             </div>
                         </div>
@@ -113,12 +113,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Our Services</h1>
+                        <h1 data-key="nav_service">Our Services</h1>
                     </div>
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="#!">Our Services</a></li>
+                            <li><a data-key="nav_home" href="index-2.html">Home</a></li>
+                            <li><a data-key="nav_service" href="#!">Our Services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,15 +145,15 @@
                     <div class="col-lg-6 mt-1-9">
                         <div>
                             <div class="section-title mb-1-6 mb-sm-1-9">
-                                <span>Services</span>
-                                <h2 class="mb-0">IT Services</h2>
+                                <span data-key="nav_service">Services</span>
+                                <h2 class="mb-0" data-key="IT_Services">IT Services</h2>
                             </div>
-                            <p class="w-xxl-95">Egy Solutions offers comprehensive IT services designed to keep your company’s technology infrastructure running smoothly. Our on-site IT support and specialized team ensure that technical issues are resolved quickly and efficiently, minimizing downtime and allowing your business to operate without interruption.
+                            <p data-key="IT_Services_paragraph" class="w-xxl-95">Egy Solutions offers comprehensive IT services designed to keep your company’s technology infrastructure running smoothly. Our on-site IT support and specialized team ensure that technical issues are resolved quickly and efficiently, minimizing downtime and allowing your business to operate without interruption.
                                 </p>
                                 <ul class="list-style3    list-unstyled">
-                                    <li>On-Site IT Support: Our IT specialists come directly to your business location to provide immediate assistance with any technical issues. Whether it’s troubleshooting, system upgrades, or hardware repairs, we ensure quick resolution with minimal disruption to your daily operations.</li>
+                                    <li data-key="IT_Services_tittle_one">On-Site IT Support: Our IT specialists come directly to your business location to provide immediate assistance with any technical issues. Whether it’s troubleshooting, system upgrades, or hardware repairs, we ensure quick resolution with minimal disruption to your daily operations.</li>
 
-                                    <li> Specialized IT Team: Our team is composed of highly skilled professionals with extensive experience in the IT field. They are equipped to handle a wide range of technical challenges, from network setup and management to cybersecurity and data protection. Each team member is certified in their area of expertise, ensuring that your IT needs are met with the highest level of professionalism.</li>
+                                    <li data-key="IT_Services_tittle_two"> Specialized IT Team: Our team is composed of highly skilled professionals with extensive experience in the IT field. They are equipped to handle a wide range of technical challenges, from network setup and management to cybersecurity and data protection. Each team member is certified in their area of expertise, ensuring that your IT needs are met with the highest level of professionalism.</li>
                                     
                                     
 
@@ -165,15 +165,15 @@
                 </div>
                 <div class="card p-1-9 mt-3">
                     <ul class="list-style3    list-unstyled">
-                        <li> Advanced Tools and Software: We utilize the latest tools and software solutions to enhance and maintain your IT infrastructure. Our services include installing and managing cutting-edge antivirus software, implementing secure backup solutions, and monitoring system performance to prevent potential issues before they arise. We also provide software updates and patches to keep your systems secure and running efficiently.</li>
-                        <li> Proactive Monitoring and Maintenance: Beyond troubleshooting, we offer proactive monitoring of your IT systems to detect and resolve issues before they impact your business. Our maintenance services include regular system checks, network health assessments, and performance optimization to ensure your technology is always up to date and functioning at its best.</li>
+                        <li data-key="IT_Services_tittle_one1"> Advanced Tools and Software: We utilize the latest tools and software solutions to enhance and maintain your IT infrastructure. Our services include installing and managing cutting-edge antivirus software, implementing secure backup solutions, and monitoring system performance to prevent potential issues before they arise. We also provide software updates and patches to keep your systems secure and running efficiently.</li>
+                        <li data-key="IT_Services_tittle_two2"> Proactive Monitoring and Maintenance: Beyond troubleshooting, we offer proactive monitoring of your IT systems to detect and resolve issues before they impact your business. Our maintenance services include regular system checks, network health assessments, and performance optimization to ensure your technology is always up to date and functioning at its best.</li>
 
-                        <li> Tailored IT Solutions: We understand that every business has unique IT needs. That’s why we offer customized IT solutions tailored to your specific requirements. Whether you need support for a small office network or a complex enterprise-level infrastructure, our team works closely with you to develop a strategy that aligns with your business goals.</li>
-                        <li> Security and Compliance: In today’s digital age, security is paramount. We implement robust security measures to protect your data and ensure compliance with industry regulations. Our services include firewall setup, data encryption, and secure access controls to safeguard your sensitive information.</li>
+                        <li data-key="IT_Services_tittle_three3"> Tailored IT Solutions: We understand that every business has unique IT needs. That’s why we offer customized IT solutions tailored to your specific requirements. Whether you need support for a small office network or a complex enterprise-level infrastructure, our team works closely with you to develop a strategy that aligns with your business goals.</li>
+                        <li data-key="IT_Services_tittle_four4"> Security and Compliance: In today’s digital age, security is paramount. We implement robust security measures to protect your data and ensure compliance with industry regulations. Our services include firewall setup, data encryption, and secure access controls to safeguard your sensitive information.</li>
                     </ul>
                     <div class="d-sm-flex">
                         <div class="pe-sm-2-9 mb-4 mb-sm-0">
-                            <a href="contact.html" class="butn">Learn More</a>
+                            <a href="contact.html" data-key="IT_Services_button_service" class="butn">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -392,19 +392,19 @@
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div class="footer-contact-info ps-sm-5 ps-xl-0">
                             <div class="mb-4">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Need live support?</p>
-                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0">info@egy.solution</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Need_live_support">Need live support?</p>
+                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0" >info@egy.solution</a>
                             </div>
                             <div class="mb-0">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Toll free customer care</p>
-                                <a href="tel:+2023278007" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Toll_free_customer_care">Toll free customer care</p>
+                                <a href="tel:+2023278007" dir="ltr" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div>
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Sign up for the newsletter</h3>
-                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="https://acoworkhtml.websitelayout.net/quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Sign_up_for_the_newsletter">Sign up for the newsletter</h3>
+                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="" method="post" enctype="multipart/form-data" onclick="">
 
                                 <div class="quform-elements">
                                     <div class="row">
@@ -437,14 +437,14 @@
                                     <img src="img/icons/icon-24.png" class="w-35px opacity6" alt="...">
                                 </div>
                                 <div>
-                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300">Protecting your privacy</p>
+                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300" data-key="Protecting_your_privacy">Protecting your privacy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xl-2 offset-xl-1 mt-5">
                         <div class="ps-sm-5 ps-xl-0">
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Social connect</h3>
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Social_connect">Social connect</h3>
                             <ul class="list-unstyled d-flex mb-0">
                                 <li class="me-3">
                                     <a href="https://www.facebook.com/share/JKMrHjwcY7mDdRe9/?mibextid=JRoKGi" class="text-white text-primary-hover display-28"><i class="fab fa-facebook-f"></i></a>

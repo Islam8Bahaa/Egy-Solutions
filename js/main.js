@@ -255,7 +255,7 @@
         }), o(".clients-carousel2").owlCarousel({
             loop: !0,
             responsiveClass: !0,
-            autoplay: !1,
+            autoplay: !0,
             autoplayTimeout: 3e3,
             smartSpeed: 1500,
             nav: !1,

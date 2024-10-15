@@ -44,13 +44,9 @@
 
         <!-- HEADER
         ================================================== -->
-        <header class="header-style1 menu_area-light">
+        <header class="header-style3">
 
             <div class="navbar-default border-bottom border-color-light-white">
-
-                <!-- start top search -->
-                
-                <!-- end top search -->
 
                 <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
                     <div class="row align-items-center">
@@ -66,43 +62,25 @@
                                     <div class="navbar-toggler bg-primary"></div>
 
                                     <!-- menu area -->
-                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                    <ul class="navbar-nav ms-auto align-items-center" id="nav" style="display: none;">
                                         <li>
-                                            <a href="index.html">Home</a>
-                                            <!-- <ul>
-                                                <li><a href="index-2.html">Home 01</a></li>
-                                                <li><a href="index-02.html">Home 02</a></li>
-                                                <li><a href="index-03.html">Home 03 - Dark Menu</a></li>
-                                                <li><a href="index-04.html">Home 04</a></li>
-                                                <li><a href="index-05.html">Home 05</a></li>
-                                                <li><a href="index-06.html">Home 06</a></li>
-                                            </ul> -->
+                                            <a data-key="nav_home" href="index.html"></a>
+                                            
                                         </li>
                                         <li>
-                                            <a href="index.html">About Us</a>
-                                            <!-- <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="book-space.html">Book A Space</a></li>
-                                                <li><a href="pricing.html">Pricing Plan</a></li>
-                                                <li><a href="team.html">Our Team</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                                <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                                                <li><a href="404.html">Page 404</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            </ul> -->
+                                            <a data-key="nav_about_us" href="about.html"></a>
+                                            
                                         </li>
                                         <li>
-                                            <a href="index.html#service">Service</a>
-                                            <!-- <ul>
-                                                <li><a href="workspace.html">Workspace</a></li>
-                                                <li><a href="workspace-details.html">Workspace Details</a></li>
-                                            </ul> -->
+                                            <a data-key="nav_service" href="index.html#service"></a>
+                                            
                                         </li>
-                                        
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a data-key="nav_contact" href="contact.html"></a>
+                                        </li>
+                                        <li class="language-switcher">
+                                            <button class="btn btn-primary" id="english-btn">English</button>
+                                            <button class="btn btn-outline-primary border-0 font-weight-900 " id="arabic-btn">Arabic</button>
                                         </li>
                                     </ul>
                                     <!-- end menu area -->
@@ -115,6 +93,7 @@
                                         </ul>
                                     </div> -->
                                     <!-- end attribute navigation -->
+                                    
                                 </nav>
                             </div>
                         </div>
@@ -130,12 +109,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Contact</h1>
+                        <h1 data-key="nav_service">Our Services</h1>
                     </div>
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a data-key="nav_home" href="index-2.html">Home</a></li>
+                            <li><a data-key="nav_contact" href="#!">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -152,7 +131,7 @@
                     <div class="col-lg-12">
                         <div class="bg-light p-1-9 p-lg-5">
                             <div class="section-title mb-1-6 mb-sm-1-9">
-                                <h2 class="mb-0 text-primary">Get In Touch</h2>
+                                <h2 data-key="contact" class="mb-0 text-primary">Get In Touch</h2>
                             </div>
                             <form class="quform" action="" method="post" enctype="multipart/form-data" onclick="">
                                 <div class="quform-elements">
@@ -230,7 +209,7 @@
                                         <!-- Begin Submit button -->
                                         <div class="col-md-12">
                                             <div class="quform-submit-inner">
-                                                <button class="butn md" type="submit"><span>Send Message</span></button>
+                                                <button  class="butn md" type="submit"><span data-key="button_service">Send Message</span></button>
                                             </div>
                                             <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                         </div>
@@ -264,21 +243,21 @@
                         </div> -->
                         <div class="col-md-6 col-xxl-4 mt-1-9">
                             <div class="contact-info border-xxl-end border-color-light-white h-100 px-md-3">
-                                <h5 class="mb-3"><i class="ti-alarm-clock me-2"></i> Opening Hours</h5>
-                                <span class="text-white d-block">Sunday - Thursday : 09:00 AM - 10:00 PM</span>
-                                <span class="text-white d-block">Saturday : 10:00 AM - 03:00 PM</span>
+                                <h5 data-key="Opening_Hours" class="mb-3"><i class="ti-alarm-clock me-2"></i> Opening Hours</h5>
+                                <span data-key="Opening_Hours1" class="text-white d-block">Sunday - Thursday : 09:00 AM - 10:00 PM</span>
+                                <span data-key="Opening_Hours2" class="text-white d-block">Saturday : 10:00 AM - 03:00 PM</span>
                             </div>
                         </div>
                         <div class="col-md-6 col-xxl-4 mt-1-9">
                             <div class="contact-info border-md-end border-color-light-white h-100 px-md-3">
-                                <h5 class="mb-3"><i class="ti-mobile me-2"></i> Contact Info</h5>
+                                <h5 data-key="Contact_Info" class="mb-3"><i class="ti-mobile me-2"></i> Contact Info</h5>
                                 <span class="text-white d-block">(+20) 232 780 07</span>
                                 
                             </div>
                         </div>
                         <div class="col-md-6 col-xxl-4 mt-1-9">
                             <div class="contact-info h-100 px-md-3">
-                                <h5 class="mb-3"><i class="ti-email me-2"></i> Email Address</h5>
+                                <h5 data-key="Email_Address" class="mb-3"><i class="ti-email me-2"></i> Email Address</h5>
                                 <span class="text-white d-block">info@egy.solution</span>
                                 
                             </div>
@@ -304,18 +283,18 @@
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div class="footer-contact-info ps-sm-5 ps-xl-0">
                             <div class="mb-4">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Need live support?</p>
-                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0">info@egy.solution</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Need_live_support">Need live support?</p>
+                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0" >info@egy.solution</a>
                             </div>
                             <div class="mb-0">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Toll free customer care</p>
-                                <a href="tel:+44123456789" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 223 278 223</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Toll_free_customer_care">Toll free customer care</p>
+                                <a href="tel:+2023278007" dir="ltr" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div>
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Sign up for the newsletter</h3>
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Sign_up_for_the_newsletter">Sign up for the newsletter</h3>
                             <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="" method="post" enctype="multipart/form-data" onclick="">
 
                                 <div class="quform-elements">
@@ -349,14 +328,14 @@
                                     <img src="img/icons/icon-24.png" class="w-35px opacity6" alt="...">
                                 </div>
                                 <div>
-                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300">Protecting your privacy</p>
+                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300" data-key="Protecting_your_privacy">Protecting your privacy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xl-2 offset-xl-1 mt-5">
                         <div class="ps-sm-5 ps-xl-0">
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Social connect</h3>
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Social_connect">Social connect</h3>
                             <ul class="list-unstyled d-flex mb-0">
                                 <li class="me-3">
                                     <a href="https://www.facebook.com/share/JKMrHjwcY7mDdRe9/?mibextid=JRoKGi" class="text-white text-primary-hover display-28"><i class="fab fa-facebook-f"></i></a>
@@ -416,6 +395,7 @@
     <script src="quform/js/scripts.js"></script>
 
     <!-- all js include end -->
+     <script src="js/translate.js"></script>
 
 </body>
 </html>

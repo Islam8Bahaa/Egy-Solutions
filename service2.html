@@ -66,23 +66,26 @@
                                     <div class="navbar-toggler bg-primary"></div>
 
                                     <!-- menu area -->
-                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                    <ul class="navbar-nav ms-auto align-items-center" id="nav" style="display: none;">
                                         <li>
-                                            <a href="index.html">Home</a>
+                                            <a data-key="nav_home" href="index.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a data-key="nav_about_us" href="about.html"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="#service">Service</a>
+                                            <a data-key="nav_service" href="index.html#service"></a>
                                             
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a data-key="nav_contact" href="contact.html"></a>
                                         </li>
-                                       
+                                        <li class="language-switcher">
+                                            <button class="btn btn-primary" id="english-btn">English</button>
+                                            <button class="btn btn-outline-primary border-0 font-weight-900 " id="arabic-btn">Arabic</button>
+                                        </li>
                                     </ul>
                                     <!-- end menu area -->
 
@@ -94,10 +97,7 @@
                                         </ul>
                                     </div> -->
                                     <!-- end attribute navigation -->
-                                    <div class="language-switcher">
-                                        <button id="english-btn">English</button>
-                                        <button id="arabic-btn">Arabic</button>
-                                    </div>
+                                    
                                 </nav>
                             </div>
                         </div>
@@ -113,12 +113,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Our Services</h1>
+                        <h1 data-key="nav_service">Our Services</h1>
                     </div>
                     <div class="col-md-12">
                         <ul>
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="#!">Our Services</a></li>
+                            <li><a data-key="nav_home" href="index-2.html">Home</a></li>
+                            <li><a data-key="nav_service" href="#!">Our Services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,10 +145,10 @@
                     <div class="col-lg-6 mt-1-9">
                         <div>
                             <div class="section-title mb-1-6 mb-sm-1-9">
-                                <span>Services</span>
-                                <h2 class="mb-0">Cleaning Destinations</h2>
+                                <span data-key="nav_service">Services</span>
+                                <h2 data-key="Cleaning_Destinations" class="mb-0">Cleaning Destinations</h2>
                             </div>
-                            <p class="w-xxl-95">With our extensive experience, Egy Solutions excels in removing even the toughest stains from various surfaces, ensuring a safe and quick process that prioritizes the integrity of your property. We exclusively use eco-friendly products that are gentle on the environment yet highly effective in delivering outstanding results. Our professional window cleaning services are meticulously designed to meet your specific needs, offering customized programs that align with your schedule and budget. Utilizing advanced technologies such as spider systems, cranes, and elevated platforms, we guarantee thorough cleaning even in the most challenging areas. Our services are flexible and available at your convenience—whether you need daily, weekly, monthly, quarterly, or annual cleaning, we ensure your spaces are consistently maintained to the highest standards.</p>
+                            <p data-key="Cleaning_Destinations_paragraph" class="w-xxl-95">With our extensive experience, Egy Solutions excels in removing even the toughest stains from various surfaces, ensuring a safe and quick process that prioritizes the integrity of your property. We exclusively use eco-friendly products that are gentle on the environment yet highly effective in delivering outstanding results. Our professional window cleaning services are meticulously designed to meet your specific needs, offering customized programs that align with your schedule and budget. Utilizing advanced technologies such as spider systems, cranes, and elevated platforms, we guarantee thorough cleaning even in the most challenging areas. Our services are flexible and available at your convenience—whether you need daily, weekly, monthly, quarterly, or annual cleaning, we ensure your spaces are consistently maintained to the highest standards.</p>
                             <!-- <ul class="list-style3 pb-1-9 border-bottom mb-1-9 mb-md-2-9 list-unstyled">
                                 <li>Planning the needs for the future.</li>
                                 <li>Promoting a good working environment.</li>
@@ -156,7 +156,7 @@
                             </ul> -->
                             <div class="d-sm-flex">
                                 <div class="pe-sm-2-9 mb-4 mb-sm-0">
-                                    <a href="contact.html" class="butn">Learn More</a>
+                                    <a data-key="Cleaning_Destinations_button_service" href="contact.html" class="butn">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -180,19 +180,19 @@
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div class="footer-contact-info ps-sm-5 ps-xl-0">
                             <div class="mb-4">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Need live support?</p>
-                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0">info@egy.solution</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Need_live_support">Need live support?</p>
+                                <a href="mailto:info@egy-solutions.com" class="text-white text-primary-hover font-weight-500 mb-0" >info@egy.solution</a>
                             </div>
                             <div class="mb-0">
-                                <p class="text-white opacity6 display-29 font-weight-400 mb-1">Toll free customer care</p>
-                                <a href="tel:+2023278007" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
+                                <p class="text-white opacity6 display-29 font-weight-400 mb-1" data-key="Toll_free_customer_care">Toll free customer care</p>
+                                <a href="tel:+2023278007" dir="ltr" class="text-white text-primary-hover font-weight-500 mb-0">(+20) 232 780 07</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-xl-3 mt-5">
                         <div>
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Sign up for the newsletter</h3>
-                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="https://acoworkhtml.websitelayout.net/quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Sign_up_for_the_newsletter">Sign up for the newsletter</h3>
+                            <form class="quform newsletter-form-icon mb-3 w-md-80 w-xl-100" action="" method="post" enctype="multipart/form-data" onclick="">
 
                                 <div class="quform-elements">
                                     <div class="row">
@@ -225,14 +225,14 @@
                                     <img src="img/icons/icon-24.png" class="w-35px opacity6" alt="...">
                                 </div>
                                 <div>
-                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300">Protecting your privacy</p>
+                                    <p class="mb-0 text-white opacity6 display-30 font-weight-300" data-key="Protecting_your_privacy">Protecting your privacy</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xl-2 offset-xl-1 mt-5">
                         <div class="ps-sm-5 ps-xl-0">
-                            <h3 class="text-white mb-3 font-weight-600 display-28">Social connect</h3>
+                            <h3 class="text-white mb-3 font-weight-600 display-28" data-key="Social_connect">Social connect</h3>
                             <ul class="list-unstyled d-flex mb-0">
                                 <li class="me-3">
                                     <a href="https://www.facebook.com/share/JKMrHjwcY7mDdRe9/?mibextid=JRoKGi" class="text-white text-primary-hover display-28"><i class="fab fa-facebook-f"></i></a>
