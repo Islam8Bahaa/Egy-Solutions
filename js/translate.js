@@ -196,7 +196,7 @@ const translations = {
         Cleaning_Services_button_service : "Learn More",
         /////box Cleaning Destinations/////
         //Section one//
-        Cleaning_Destinations : "Cleaning Destinations",
+        Cleaning_Destinations : "Eco-Friendly Window Cleaning Services",
         Cleaning_Destinations_paragraph : "With our extensive experience, Egy Solutions excels in removing even the toughest stains from various surfaces, ensuring a safe and quick process that prioritizes the integrity of your property. We exclusively use eco-friendly products that are gentle on the environment yet highly effective in delivering outstanding results. Our professional window cleaning services are meticulously designed to meet your specific needs, offering customized programs that align with your schedule and budget. Utilizing advanced technologies such as spider systems, cranes, and elevated platforms, we guarantee thorough cleaning even in the most challenging areas. Our services are flexible and available at your convenience—whether you need daily, weekly, monthly, quarterly, or annual cleaning, we ensure your spaces are consistently maintained to the highest standards.",
         Cleaning_Destinations_button_service : "Learn More",
         /////box Cleaning Maintenance/////
@@ -221,7 +221,7 @@ const translations = {
         contact : "Get In Touch",
         button_service : "Send Message",
         Opening_Hours: " Opening Hours",
-        Opening_Hours1 : "Sunday - Thursday : 09:00 AM - 10:00 PM",
+        Opening_Hours1 : "Sunday - Thursday : 09:00 AM - 05:00 PM",
         Opening_Hours2 : "Saturday : 10:00 AM - 03:00 PM",
         Contact_Info: " Contact Info",
         Email_Address : " Email Address",
@@ -347,7 +347,7 @@ const translations = {
         Sterilization_tittle_three : "الاستجابة للطوارئ: نشر سريع لفريقنا للتعامل مع الحالات العاجلة، مثل انتشار الآفات المفاجئ أو حالات التلوث، لضمان حل سريع مع أقل قدر من التعطيل لعملياتك.",
         Sterilization_tittle_four : "التقييمات الشاملة: فحوصات دقيقة لمنشأتك لتحديد المخاطر المحتملة وتطوير خطة مخصصة تلبي معايير السلامة الخاصة بك والمتطلبات التنظيمية.",
         Sterilization_paragraph2 :"نركز على تقديم خدمات سريعة وفعالة وموثوقة، لضمان استمرار عمل منشأتك مع الحفاظ على صحة وسلامة جميع المتواجدين فيها. سواء كنت بحاجة إلى تنظيف عميق لمرة واحدة، أو صيانة دورية، أو تدخلات طارئة، فإن فريقنا المتخصص مجهز لتقديم أعلى مستوى من الخدمة، مما يضمن بيئة معقمة وخالية من الآفات، تعزز من سمعة ووظائف منشأتك.",
-        button_service : "المزيد",
+        Sterilization_button_service : "المزيد",
         /////box Landscape Services /////
         //Section one//
         service : "خدماتنا",
@@ -374,7 +374,7 @@ const translations = {
         little_about : "الخدمات",
         //Section two//
         little_service : "الخدمات",
-        Mobile_Car_Wash_Services_ : "خدمة تنظيف العربيات",
+        Mobile_Car_Wash_Services : "خدمة تنظيف العربيات",
         Mobile_Car_Wash_Services_paragraph : "تقدم إيجى سوليوشن خدمة غسيل السيارات المتنقلة مباشرة إلى موقعك، مما يوفر الوقت والجهد مع الحفاظ على سياراتك في حالة ممتازة. خدمتنا مثالية للبيئات المؤسسية، حيث تتيح للموظفين تنظيف سياراتهم دون مغادرة مكان العمل، مما يقلل من وقت التوقف ويزيد من الإنتاجية.",
         Mobile_Car_Wash_Services_tittle_one : "خيارات تنظيف شاملة: نقدم مجموعة من خيارات غسيل السيارات، من التنظيف الخارجي الأساسي إلى خدمات الت detailing الكاملة، بما في ذلك شفط الداخلية، وتنظيف النوافذ، وتلميع الإطارات. يمكن تخصيص باقاتنا لتلبية الاحتياجات المحددة، مما يضمن أن تتلقى كل مركبة العناية التي تستحقها",
         Mobile_Car_Wash_Services_tittle_two : "فريق متخصص: يتكون فريقنا من محترفين مدربين تدريباً عالياً خبراء في رعاية السيارات. بفضل سنوات من الخبرة والالتزام بالتميز، يقدمون خدمات من الدرجة الأولى تلبي أعلى معايير الصناعة. كل عضو في فريقنا مدرب على أحدث التقنيات ويستخدم معدات متطورة لضمان أفضل النتائج الممكنة.",
@@ -411,7 +411,7 @@ const translations = {
         Cleaning_Services_button_service : "المزيد",
         /////box Cleaning Destinations/////
         //Section one//
-        Cleaning_Destinations : "اماكن التنظيف",
+        Cleaning_Destinations : "خدمات تنظيف النوافذ الصديقة للبيئة",
         Cleaning_Destinations_paragraph : "آمنة وسريعة تعطي الأولوية لسلامة ممتلكاتك. نحن نستخدم حصريًا منتجات صديقة للبيئة لطيفة على البيئة ولكنها فعالة للغاية في تحقيق نتائج متميزة. خدمات تنظيف النوافذ لدينا مصممة بدقة لتلبية احتياجاتك المحددة، مع تقديم برامج مخصصة تتماشى مع جدولك وميزانيتك. باستخدام تقنيات متقدمة مثل أنظمة العنكبوت، والرافعات، والأنظمة المرتفعة، نضمن تنظيفًا شاملًا حتى في أصعب المناطق. خدماتنا مرنة ومتاحة في الوقت الذي يناسبك—سواء كنت بحاجة إلى تنظيف يومي، أسبوعي، شهري، ربع سنوي، أو سنوي، نضمن الحفاظ على مساحاتك دائمًا وفقًا لأعلى المعايير.",
         Cleaning_Destinations_button_service : "المزيد",
         /////box Cleaning Maintenance/////
@@ -438,10 +438,10 @@ const translations = {
         home: "الرئيسية",
         little_about : "تواصل معنا",
         //Section two//
-        contact : "تواصل معناالان",
+        contact : "تواصل معنا الان",
         button_service : "ارسال",
         Opening_Hours: "ساعات العمل",
-        Opening_Hours1 : "الأحد - الخميس : 09:00 ص - 10:00 م",
+        Opening_Hours1 : "الأحد - الخميس : 09:00 ص - 05:00 م",
         Opening_Hours2 : "السبت : 10:00 ص - 03:00 م",
         Contact_Info: " معلومات الاتصال",
         Email_Address : "  عنوان البريد الإلكتروني",

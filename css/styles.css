@@ -465,6 +465,10 @@ span.sm-dot {
     border-color: transparent #00BFFF #00BFFF transparent
 }
 
+.navbox{
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 992px) {
 
     .menu_area-light .navbar ul ul li.active>a,
@@ -1083,7 +1087,7 @@ span.sm-dot {
 .section-title span {
     text-transform: uppercase;
     color: #00BFFF;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
     font-weight: 600;
     font-size: 14px
 }
@@ -4261,7 +4265,7 @@ span.sm-dot {
 .contact-style02 .contact-info h5 {
     text-transform: uppercase;
     color: #00BFFF;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-weight: 500;
     font-size: 16px
 }
